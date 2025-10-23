@@ -1,50 +1,26 @@
-# Welcome to your Expo app 👋
+# 📱 User App
+Aplicación móvil desarrollada con **Expo**, **React Native** y **TypeScript**, que muestra una lista de usuarios y permite ver los detalles individuales.  
+Incluye pruebas unitarias y de integración configuradas con **Jest** y **Testing Library**.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 🚀 Requisitos previos
+Antes de comenzar, asegúrate de tener instalado:
 
-## Get started
+- **Node.js** ≥ 18  
+- **npm** ≥ 9  
+- **Expo CLI** (opcional, pero recomendado)
 
-1. Install dependencies
+### ▶️ Ejecución del proyecto
 
-   ```bash
-   npm install
-   ```
+Para iniciar la app en modo desarrollo:
+- **npm start
 
-2. Start the app
+O directamente en un entorno específico:
+- **npm run android   # Ejecutar en emulador o dispositivo Android
+- **npm run web  
 
-   ```bash
-   npx expo start
-   ```
+#### 🧪 Pruebas
+El proyecto utiliza Jest y @testing-library/react-native para realizar pruebas unitarias y de renderizado.
+- **npm test
 
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+#### 📄 Notas
+Yo utilizo Expo cuando quiero desarrollar de forma rápida y práctica, sin preocuparme por configuraciones nativas. Es ideal cuando necesito crear prototipos, o aplicaciones pequeñas y medianas, ya que me permite enfocarme completamente en la lógica con React y ejecutar todo desde la nube. En cambio, recurro al React Native CLI cuando necesito un control total del proyecto, integrar SDKs o librerías nativas no soportadas por Expo, optimizar el rendimiento o trabajar en entornos más complejos donde se requiere acceso directo al código nativo. En resumen, uso Expo cuando busco velocidad y simplicidad, y React Native CLI cuando necesito flexibilidad y personalización avanzada.
